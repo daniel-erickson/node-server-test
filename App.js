@@ -54,7 +54,7 @@ var flashPolicyServer = net.createServer(function (stream) {
     });
 });
 
-flashPolicyServer.listen(8081);
+flashPolicyServer.listen(843);
 
 
 
