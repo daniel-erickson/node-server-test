@@ -10,6 +10,7 @@ var express = require('express')
 
 
     io.set('transports', ['websocket', 'flashsocket', 'htmlfile']);
+    io.set('log level', 1);
 
 //var pf = require('policyfile').createServer()
 
@@ -31,7 +32,7 @@ var userController = require('./UserController');
 var roomController = require('./RoomController');
 
 
-//io.set('log level', 1);
+
 
 var net = require("net");
 
